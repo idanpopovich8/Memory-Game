@@ -1,0 +1,80 @@
+body{
+    background-image:url('https://www.israelhayom.co.il/wp-content/uploads/2023/11/21/21/WhatsApp-Image-2023-11-20-at-22.13.27.jpeg') ;
+    background-size: cover;
+
+}
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+#box{
+   margin-left: 620px;
+   margin-top: 300px; 
+   display: flex;
+   flex-direction: column;
+}
+#name{
+    color: red;
+    margin-top: 650px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 80px;
+    position: absolute;
+    background-color: whitesmoke;
+}
+#timer{
+    background-color: whitesmoke;
+    color: red;
+    font-size: 30px;
+    margin-top: 650px;
+    margin-right: 200px;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.memory-header{
+    font-size: 50px;
+    color:cyan;
+    font-style: italic;
+}
+#name-input{
+    width: 300px;
+    height: 30px;
+    border-radius: 20px;
+    font-size: 16px;
+}
+#button{
+    border-radius: 20px;
+    font-size: 30px;
+    color: fuchsia;
+}
+#pairs-input{
+    width: 300px;
+    height: 30px;
+    border-radius: 20px;
+    font-size: 16px;
+}
+.card-container {
+    flex: 0 0 100px;
+    height: 110px;
+    overflow: hidden;
+    margin: 10px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQrxxqY4TAKlnBr3YKOmETMMIoZ0LE9Vu-Diyl9HpeqQ&s');
+    background-size: cover;
+    border-radius: 15px;
+    border: 3px solid black;
+}
+
+.card-image {
+    object-fit: fill;
+    height: 100%;
+    width: 100%;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.disabled {
+    pointer-events: none;
+}
